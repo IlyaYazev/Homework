@@ -1,5 +1,5 @@
-def print_params(characteristic):
-    print("I believe in miracles", characteristic)
+def print_params():
+    print("I believe in miracles")
     print("777")
-print_params("beautiful")
-print_params("unexpected")
+print_params()
+print_params()
