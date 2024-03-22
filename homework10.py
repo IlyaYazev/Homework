@@ -1,9 +1,7 @@
-def print_params():
-    print("I believe in miracles")
-    print("777")
-print_params()
-print_params()
-
+def print_params(object):
+    print("What do you believe in? ", object)
+print_params("I believe in miracles")
+print_params("777")
 
 
 
