@@ -4,11 +4,9 @@ def test():
     print(a, b)
 test()
 
-def test2 ():
-    print("I learn")
-    print("Python")
-    print("Three weeks")
-test2()
+def test2 (a, b, c):    #I learn, Python, Three weeks
+    print("I learn", "Python", "Three weeks")
+test2("", "", "")
 
 
 
