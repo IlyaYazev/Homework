@@ -1,8 +1,12 @@
-def print_params(a, b, c):
-    print (a, b, c)
-    print (b, c)
+def print_params(a = 1, b = 'строка', c = True):
+    print(a, b, c)
+    print(b, c)
     print(c)
     print()
+
+print_params()
+print_params(b = 25)
+print_params(c = [1,2,3])
 
 list_ = [1, 'строка', True]
 print_params(*list_)
