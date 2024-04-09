@@ -4,5 +4,5 @@ def test_function(): # Создайте новую функцию def test_funct
     inner_function() # Вызовите функцию inner_function внутри функции test_function
 
 test_function()
-#если вызываем inner_funtion() то NameError: name 'inner_funtion' is not defined
+#если вызываем inner_funсtion() то NameError: name 'inner_funtion' is not defined
 
