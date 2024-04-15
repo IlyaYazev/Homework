@@ -3,4 +3,5 @@ class House:
         self.numberOfFloors = 10
 
 house = House()
-print("Текущий этаж равен",house.numberOfFloors)
+for i in range(house.numberOfFloors):
+    print("Текущий этаж равен", i)
