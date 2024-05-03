@@ -9,7 +9,7 @@ class House: #1
 
     def setNewNumberOfFloors(self, floors): #3
          self.numberOfFloors = floors
-         print(floors)
+         print(self.numberOfFloors)
 
-house = House()
-var = house.numberOfFloors  ### нужна подсказка, в верном ли напрвлении пишу и куда дальше?
+New_build = House()
+print(New_build.numberOfFloors)
